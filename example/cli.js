@@ -3,8 +3,8 @@ var emitter = new StreamedEmitter()
 //
 // Any error should be printed
 //
-emitter.on('error', function(){
-    console.error(arguments)
+emitter.on('error', function(err){
+    console.error(err.stack)
 })
 //
 // Accept JSON arrays for creating events from stdin
