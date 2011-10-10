@@ -1,7 +1,7 @@
 {
 	"name": "streamedemitter",
 	"author": "bradleymeck",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"main": "lib/streamedemitter.js",
 	"dependencies": {
 		"eventemitter2": "0.4.x"
